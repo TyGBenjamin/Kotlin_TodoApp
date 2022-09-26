@@ -51,7 +51,6 @@ class TodoAdapter(
     }
 
     fun deleteAllTodos() {
-        alert()
         todos.clear()
         notifyDataSetChanged()
     }
