@@ -50,6 +50,11 @@ class TodoAdapter(
         notifyDataSetChanged()
     }
 
+    fun deleteAllTodos() {
+        todos.clear()
+        notifyDataSetChanged()
+    }
+
     override fun onBindViewHolder(holder: TodoViewHolder, position: Int) {
         val currentTodo = todos[position]
         holder.itemView.apply {
