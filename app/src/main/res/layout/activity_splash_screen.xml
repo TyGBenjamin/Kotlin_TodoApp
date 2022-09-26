@@ -7,11 +7,10 @@
     tools:context=".presentation.MainActivity.SplashScreenActivity">
 
     <ImageView
+        android:id="@+id/iv_check"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/ic_baseline_fact_check_24"
         android:layout_centerInParent="true"
-        android:id="@+id/iv_check" />
+        android:src="@drawable/ic_baseline_fact_check_24" />
 
-    
 </RelativeLayout>
